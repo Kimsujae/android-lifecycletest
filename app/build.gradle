@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'kr.ac.kumoh.s20160250.lifecyclecheck'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "kr.ac.kumoh.s20160250.lifecyclecheck"
         minSdk 30
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

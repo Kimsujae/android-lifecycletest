@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Toast.makeText(this,"액티비티 생성",Toast.LENGTH_SHORT).show()
-        Log.d("Oncreate","액티비티 생성") // 액티비티 생성
+        Log.d("On create","액티비티 생성") // 액티비티 생성
     }
 
     override fun onStart() {
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
     override fun onPause() {
         super.onPause()
         Toast.makeText(this,"on Pause",Toast.LENGTH_SHORT).show()
-        Log.d("On create","액티비티 활동 중지")
+        Log.d("On Pause","액티비티 활동 중지")
         // 액티비티 일시정지 화면을 떠나거나
     }
     override fun onStop() {
